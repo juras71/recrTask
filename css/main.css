@@ -3,7 +3,7 @@ body{
     align-items: center;
     flex-flow: column;
     box-sizing: border-box;
-    background: linear-gradient(-3deg, #fb8f39 43%, #fff 43.2%);
+    background: linear-gradient(-3deg, #f39222 43%, #fff 43.2%);
 }
 
 main{
@@ -26,7 +26,7 @@ header{
     font-size: .7em;
 }
 #new{
-    color: #fb8f39;
+    color: #f39222;
 }
 
 .box{
@@ -38,7 +38,7 @@ header{
     text-align: center;
 }
 .box:hover{
-    box-shadow: 0 0 1em #fb8f39;
+    box-shadow: 0 0 1em #f39222;
 }
 .title{
     height: 100px;
@@ -57,7 +57,7 @@ header{
 }
 .separator::after{
     content: "";
-    background: #fb8f39;
+    background: #f39222;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -70,7 +70,7 @@ header{
     align-self: center;
     display: flex;
     align-items: center;
-    color: #fb8f39;
+    color: #f39222;
     border: 2px solid #ff6730;
     border-radius: 10px;
     box-shadow: 0 0 .2em #ff6730;
@@ -111,7 +111,7 @@ header{
 }
 .faqBoxHeader{
     background: white;
-    color: #fb8f39;
+    color: #f39222;
     border-radius: 8px;
     display: flex;
     flex-flow: row nowrap;
@@ -121,7 +121,7 @@ header{
 }
 .slideButton{
     width: 1.5em;
-    background: #fb8f39;
+    background: #f39222;
     border-radius: 50%;
     color: white;
     height: 1.5em; 
@@ -167,7 +167,7 @@ footer{
 
 @media (max-width:768px){
     body{
-        background: linear-gradient(-3deg, #fb8f39 27%, #fff 27.2%);
+        background: linear-gradient(-3deg, #f39222 27%, #fff 27.2%);
         }
     .box:after{
         content: none;
