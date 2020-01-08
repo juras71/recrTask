@@ -166,6 +166,9 @@ footer{
 }
 
 @media (max-width:768px){
+    .row{
+        margin: 0;
+    }
     body{
         background: linear-gradient(-3deg, #f39222 27%, #fff 27.2%);
         }
